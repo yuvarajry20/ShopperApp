@@ -1,5 +1,5 @@
 import java.util.*;
-import java.io.file;
+import java.io.File;
 import java.io.FileNotException;
 public class Easy_1 {
 
