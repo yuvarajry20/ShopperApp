@@ -24,7 +24,7 @@ public class Easy_7 {
 		}
 		}catch(FileNotException e){
 			System.out.println("File not found");
-			e.printStackTrace;
+			e.printStackTrace();
 		}
 	}
 
