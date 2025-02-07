@@ -23,6 +23,9 @@ public class Easy_1 {
 		}
 			System.out.println("even"+even+"odd"+odd);
 
-}
+}catch(FileNotFoundException e){
+			System.out.println("error: file not found.");
+			e.printStackTrace();
 	}
+}
 }
