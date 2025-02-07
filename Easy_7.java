@@ -22,7 +22,7 @@ public class Easy_7 {
 		else {
 			System.out.println("Not eligible");
 		}
-		}catch(FileNotException e){
+		}catch(FileNotFoundException e){
 			System.out.println("File not found");
 			e.printStackTrace();
 		}
