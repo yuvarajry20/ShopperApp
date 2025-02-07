@@ -6,6 +6,7 @@ public class Easy_7 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		try{
 		File file=new File("input1.txt");
 		Scanner sc=new Scanner(file);
 		System.out.println("Enter the age");
@@ -20,6 +21,10 @@ public class Easy_7 {
 		}
 		else {
 			System.out.println("Not eligible");
+		}
+		}catch(FileNotException e){
+			System.out.println("File not found");
+			e.printStackTrace;
 		}
 	}
 
