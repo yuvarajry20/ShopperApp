@@ -6,7 +6,7 @@ public class Easy_1 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		try{
-			File file=new file("input.txt");
+			File file=new File("input.txt");
 			Scanner sc=new Scanner(file);
 			int size=sc.nextInt();
 			int arr[]=new int[size];
