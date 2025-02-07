@@ -1,6 +1,6 @@
 import java.util.*;
 import java.io.File;
-import java.io.FileNotException;
+import java.io.FileNotFoundException;
 public class Easy_1 {
 
 	public static void main(String[] args) {
