@@ -1,7 +1,7 @@
 
 import java.io.File;
 import java.util.Scanner;
-
+import java.io.FileNotFoundException;
 public class Easy_7 {
 
 	public static void main(String[] args) {
