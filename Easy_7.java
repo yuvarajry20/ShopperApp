@@ -16,7 +16,7 @@ public class Easy_7 {
 		System.out.println("Enter the weight");
         int weight;
 		weight = sc.nextInt();
-			System.out.println("weight");
+			System.out.println(weight);
 		
 		if(age>=18 && age <=55 && weight>=45) {
 			System.out.println("Eligible to donate");
