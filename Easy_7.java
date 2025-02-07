@@ -1,12 +1,13 @@
-package com.controlflowstatements;
 
+import java.io.File;
 import java.util.Scanner;
 
 public class Easy_7 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Scanner sc=new Scanner(System.in);
+		File file=new File("input1.txt");
+		Scanner sc=new Scanner(file);
 		System.out.println("Enter the age");
 		int age;
 		age = sc.nextInt();
